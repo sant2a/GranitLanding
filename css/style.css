@@ -1,0 +1,454 @@
+@font-face {
+  font-family: 'Gotham Pro';
+  src: url('GothamPro.eot');
+  src: local('Gotham Pro'), local('GothamPro'),
+    url('GothamPro.eot?#iefix') format('embedded-opentype'),
+    url('GothamPro.woff') format('woff'),
+    url('GothamPro.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+	font-family: 'Gotham Pro Bold';
+	src: url('GothamPro-Bold.eot');
+	src: local('Gotham Pro Bold'), local('GothamPro-Bold'),
+		url('GothamPro-Bold.eot?#iefix') format('embedded-opentype'),
+		url('GothamPro-Bold.woff') format('woff'),
+		url('GothamPro-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+body {
+  font-family: 'Gotham Pro', sans-serif;
+  margin: 0;
+  overflow-x:hidden;
+  color: #292929;
+  
+}
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+.topmenu {
+  display: flex;
+  padding-top: 36px;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-right: 347px;
+  
+}
+
+.tel {
+ padding-left: 170px;
+ padding-top: 5px;
+ 
+}
+.header{
+  z-index: 100;
+  
+}
+.teldescription {
+color: #969696;
+font-family: "Gotham Pro", sans-serif;
+font-size: 11px;
+padding-top: 8px;
+}
+a{
+  color: #292929;
+  font-family: "Gotham Pro", sans-serif;
+  font-size: 18px;
+ text-decoration: none;
+ padding-left: 42px;
+ font-weight: bold;
+	font-style: normal;
+ 
+}
+.buttonnavtel{
+  font-family: 'Gotham Pro Bold', sans-serif;
+  border: 2px solid #292929;
+  background-color: #fff;
+  font-size: 12px;
+ padding: 15px 15px;
+ padding-left: 25px;
+ padding-right: 25px;
+ font-weight: bold;
+ font-style: normal;
+  
+}
+.navmenu{
+  position: absolute;
+background-color: #ffcc00;
+margin-top: 36px;
+display: flex;
+width: 1140px;
+z-index: 101;
+
+
+}
+.navattr{
+  display: flex;
+  width: 100%
+   
+}
+.menu-text{
+  padding: 5px 5px;
+  padding-right: 90px;
+  width: 100%;
+  font-family: "Gotham Pro", sans-serif;
+font-size: 14px;
+font-weight: bold;
+  font-style: normal;
+  color: #000000;
+
+}
+.menu-text:first-child{
+  padding-left: 60px;
+}
+.menu-text:last-child{
+padding-right: 60px;
+}
+.navdesc{ 
+display: flex;
+
+}
+.mainMenu{
+  margin-top: 63px;
+  background-color: #303030;
+ 
+  width: 1920px;
+  height: 550px;
+}
+.mainMenuImage{
+  background: url('/img/Слой_10.png');
+  opacity: 1;
+  width: 1920px;
+  height: 550px;
+}
+h1{
+
+  padding-top: 150px;
+  color: #ffffff;
+  font-size: 40px;
+  font-family: 'Gotham Pro Bold', sans-serif;
+  text-transform: uppercase;
+
+}
+p{
+  color: #ffffff;
+font-family: "Gotham Pro", sans-serif;
+font-size: 14px;
+font-weight: 300;
+line-height: 22px;
+padding-top: 40px;
+}
+.top-button{
+  background-color: #ffd200;
+  padding: 20px 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+color: #0d0d0d;
+margin-top: 60px;
+border: solid 0px;
+}
+.button-content{
+  display: flex;
+  
+}
+.catalog{
+  margin-left: 15px;
+  font-size: 13px;
+font-weight: 500;
+line-height: 22px;
+text-decoration: underline;
+padding-top: 80px;
+color: #ffffff;
+}
+.or{
+  margin-left: 30px;
+  font-size: 13px;
+font-weight: 500;
+line-height: 22px;
+padding-top: 80px;
+color: #ffffff;
+
+}
+h2{
+  font-family: 'Gotham Pro Bold', sans-serif;
+  color: #292929;
+font-size: 20px;
+text-align: center;
+text-transform: uppercase;
+padding-top: 80px;
+}
+.card{
+  display: flex;
+text-align: center;
+justify-content: space-between;
+  margin-top: 60px;
+padding-bottom: 80px;
+}
+.card-body{
+  border: 2px solid #f6f6f6;
+  width: calc(100%/3);
+  margin-right: 20px;
+  
+}
+.card-image1{
+  padding-top: 34px;
+}
+.card-image2{
+  padding-top: 61px;
+}
+.card-description{
+  color: #626262;
+font-family: "Gotham Pro", sans-serif;
+font-size: 13px;
+font-weight: 300;
+padding-top: 19px;
+}
+.card-title{
+  padding-top: 32px;
+  font-family: 'Gotham Pro Bold', sans-serif;
+font-size: 15px;
+font-weight: 500;
+text-decoration: underline;
+color: #292929;
+}
+.card-price{
+  font-family: 'Gotham Pro Bold', sans-serif;
+	font-size: 16px;
+  padding-top: 29px;
+}
+.card-button{
+  margin-top: 32px;
+  background-color: #ffd200;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 55px;
+  padding-left: 55px;
+  border: solid 0px;
+  font-size: 12px;
+  font-family: 'Gotham Pro Bold', sans-serif;
+  margin-bottom: 36px;
+
+}
+h3{
+  font-size: 20px;
+  font-family: 'Gotham Pro Bold', sans-serif;
+text-transform: uppercase;
+text-align: center;
+padding-bottom: 60px;
+
+}
+.about{
+  padding-top: 80px;
+  background-color: #f4f4f4;
+ 
+}
+.allCards-about{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 80px;
+}
+.card-about{
+  text-align: center;
+  border: 2px solid #ffffff;
+  margin-right: 20px;
+  width: calc(100%/3);
+  box-shadow: 0 9px 21px rgba(0, 0, 0, 0.05);
+}
+.img-about{
+  padding-top: 40px;  
+  padding-bottom: 40px;
+}
+.title-about{
+  padding-bottom: 20px;
+  font-size: 15px;
+  font-family: 'Gotham Pro Bold', sans-serif;
+
+
+}
+.description-about{
+padding-bottom: 43px;
+  font-size: 13px;
+}
+h4{
+  padding-bottom: 60px;
+  padding-top: 80px;
+  font-size: 20px;
+text-transform: uppercase;
+font-family: 'Gotham Pro Bold', sans-serif;
+text-align: center
+}
+.card-items{
+display: flex;
+margin-bottom: 60px;
+}
+.item-body{
+width: calc(100%/4);
+margin-right: 19px;
+border: 2px solid #f6f6f6;
+text-align: center;
+}
+.item-title{
+  font-size: 13px;
+color: #292929;
+text-decoration: underline;
+font-family: 'Gotham Pro Bold', sans-serif;
+}
+.item-img{
+padding-bottom: 20px;
+padding-top: 20px;
+}
+.sale{
+  width: 38px;
+height: 9px;
+  background-color: #ff0000;
+  font-size: 10px;
+  font-family: 'Gotham Pro Bold', sans-serif;
+color: #ffffff;
+text-align: center;
+padding-right: 7px;
+padding-top: 7px;
+padding-left: 7px;
+padding-bottom: 7px;
+position: absolute ;
+margin-left: 50px;
+margin-top: 30px;
+}
+.item-price1{
+  font-size: 16px;
+  color: #ff0000;
+  font-family: 'Gotham Pro Bold', sans-serif;  padding-top: 37px;
+  padding-bottom: 25px;
+  margin-left: 70px;
+}
+.item-price3{
+  font-size: 16px;
+  font-family: 'Gotham Pro Bold', sans-serif;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+.item-price4{
+  font-size: 16px;
+  font-family: 'Gotham Pro Bold', sans-serif;
+  padding-top: 37px;
+  padding-bottom: 25px;
+}
+.item-button{
+  background-color: #ffd200;
+  font-size: 12px;
+  color: #0d0d0d;
+  font-family: 'Gotham Pro Bold', sans-serif;
+    margin-bottom: 25px;
+  margin-left: 35px;
+  margin-right: 35px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 70px;
+  padding-right: 70px;
+
+}
+.lastPrice{
+position: absolute;
+color: #979797;
+font-size: 11px;
+text-decoration: line-through;
+margin-top: 40px;
+margin-left: 60px;
+}
+.services{
+display: flex;
+text-align: center;
+
+}
+.services-card{
+  width: calc(100%/3);
+  border: 2px solid #ffffff;
+  margin-bottom: 80px;
+  margin-right: 20px;
+}
+.services-img{
+padding-top: 52px;
+}
+.services-title{
+  font-size: 15px;
+  text-decoration: underline;
+  font-family: 'Gotham Pro Bold', sans-serif;
+  padding-bottom: 40px;
+}
+.services-img1{
+  padding-top: 45px;
+  padding-bottom: 22px;
+}
+.services-img2{
+padding-top: 43px;
+padding-bottom: 20px;
+}
+.services-img3{
+  padding-top: 32px;
+  padding-bottom: 20px;
+}
+.services-block{
+  background-color: #f4f4f4;
+}
+.map{
+  width: 100%;
+
+  background: url(/img/Слой_24_копия_2.jpg);
+  width: 100%;
+  height: 520px;
+}
+.location{
+  padding-left: 610px;
+  padding-top: 227px;
+}
+.contact{
+background-color: #292929;
+
+}
+
+.granti{
+ padding-top: 60px;
+  color:white;
+  font-size: 12px;
+}
+.tel-footer{
+  color: white;
+  
+}
+.telclass-footer{
+  color: #ffffff;
+  font-size: 18px;
+  
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-bottom: 43px;
+}
+.teldescription-footer{
+  font-size: 11px;
+  padding-top: 5px;
+}
+.button-footer{
+  margin-top: 30px;
+  background-color: #292929;
+border: 2px solid #ffffff;
+padding-top: 15px;
+padding-bottom: 15px;
+padding-right: 25px;
+padding-left: 25px;
+margin-left: 20px;
+color: #ffffff;
+font-size: 12px;
+font-family: 'Gotham Pro Bold', sans-serif;
+}
