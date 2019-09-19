@@ -51,6 +51,11 @@ body {
   z-index: 100;
   
 }
+.telclass{
+  padding-left: 26px;
+  font-size: 20px;
+
+}
 .teldescription {
 color: #969696;
 font-family: "Gotham Pro", sans-serif;
@@ -59,13 +64,11 @@ padding-top: 8px;
 }
 a{
   color: #292929;
-  font-family: "Gotham Pro", sans-serif;
+  font-family: 'Gotham Pro Bold', sans-serif;
   font-size: 18px;
  text-decoration: none;
- padding-left: 42px;
- font-weight: bold;
-	font-style: normal;
  
+
 }
 .buttonnavtel{
   font-family: 'Gotham Pro Bold', sans-serif;
@@ -82,12 +85,12 @@ a{
 .navmenu{
   position: absolute;
 background-color: #ffcc00;
-margin-top: 36px;
+margin-top: 30px;
 display: flex;
 width: 1140px;
-z-index: 101;
-
-
+height: 55px;
+text-align: center;
+padding-top: 10px;
 }
 .navattr{
   display: flex;
@@ -95,21 +98,21 @@ z-index: 101;
    
 }
 .menu-text{
-  padding: 5px 5px;
-  padding-right: 90px;
+  padding: 13px 13px;
+  padding-right: 80px;
   width: 100%;
-  font-family: "Gotham Pro", sans-serif;
-font-size: 14px;
+  font-family: 'Gotham Pro Bold', sans-serif;
+font-size: 15px;
 font-weight: bold;
   font-style: normal;
   color: #000000;
 
 }
 .menu-text:first-child{
-  padding-left: 60px;
+  padding-left: 40px;
 }
 .menu-text:last-child{
-padding-right: 60px;
+padding-right: 40px;
 }
 .navdesc{ 
 display: flex;
@@ -426,8 +429,10 @@ background-color: #292929;
 }
 .telclass-footer{
   color: #ffffff;
-  font-size: 18px;
   
+  padding-left: 26px;
+  font-size: 20px;
+
 }
 .footer{
   display: flex;
